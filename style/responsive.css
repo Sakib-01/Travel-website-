@@ -27,7 +27,9 @@
 
     h3{
         width: 90%;
-        margin: 0px auto;
+        margin: 0px auto 24px;
+        font-size: 2rem;   
+        text-align: center;
     }
 
     .popular-tour {
@@ -40,8 +42,48 @@
     }
 
     .banner-content p,
-    .popular-tour-text {
+    .popular-tour-text,
+    .destination_content p 
+    {
         width: 95%;
-        margin: 0px auto;
+        margin: 0px auto 24px;
     }
+
+
+
+    /* grid responsive  */
+
+
+        .destination-collage {
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+        }
+    
+        .card-1, .card-2, .card-3, .card-4, .card-5, .card-6, .card-7 {
+            grid-column: 1 / -1;
+            grid-row: auto;
+        }
+    
+        .card-1 {
+            grid-row: 1;
+        }
+        .card-2 {
+            grid-row: 2;
+        }
+        .card-3 {
+            grid-row: 3;
+        }
+        .card-4 {
+            grid-row: 4;
+        }
+        .card-5 {
+            grid-row: 5;
+        }
+        .card-6 {
+            grid-row: 6;
+        }
+        .card-7 {
+            grid-row: 7;
+        }
+    
 }
