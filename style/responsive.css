@@ -29,7 +29,7 @@
         width: 90%;
         margin: 0px auto 24px;
         font-size: 2rem;   
-        text-align: center;
+        /* text-align: center; */
     }
 
     .popular-tour {
@@ -43,7 +43,8 @@
 
     .banner-content p,
     .popular-tour-text,
-    .destination_content p 
+    .destination_content p ,
+    .choose-us-content p
     {
         width: 95%;
         margin: 0px auto 24px;
@@ -86,4 +87,31 @@
             grid-row: 7;
         }
     
+
+
+/*     choose-us-content style  */
+        .choose-us-content h3{
+            text-align: left;
+        }
+    
+        .choose-us-card {
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+        }
+    
+        .card-a, .card-b, .card-c{
+            grid-column: 1 / -1;
+            grid-row: auto;
+        }
+    
+        .card-a {
+            grid-row: 1;
+        }
+        .card-b {
+            grid-row: 2;
+        }
+        .card-c {
+            grid-row: 3;
+        }
+          
 }

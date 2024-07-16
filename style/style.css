@@ -260,3 +260,83 @@ p{
         transform: translate(-50%,-50%);
     }
     
+
+
+    /* choose-us-container style start */
+
+
+
+        .choose-us-container{
+            border: 2px solid red;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 100px auto;
+        }
+        .choose-us-content{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .choose-us-content p{
+            width: 643px;
+            text-align: center;
+        }
+
+
+        .choose-us-card{
+            width: 100%;
+            display: grid;
+            justify-content: space-between;
+            grid-template-columns: repeat(12,1fr);
+            grid-template-rows: repeat(12,1fr);
+            gap: 20px;
+
+        }
+    
+        .card-a{
+            grid-column: 1 / span 6;
+            grid-row: 1 /span 6;
+            border: 1px solid rgba(251, 181, 99, 0.2);
+            border-radius: 16px;      
+            background: rgba(251, 181, 99, 0.05);  
+            padding: 20px;          
+            
+        }
+        .card-b{
+            border: 1px solid rgba(41, 206, 246, 0.2);
+            border-radius: 16px;       
+            background: rgba(41, 206, 246, 0.05);            
+            grid-column: 7 / span 6;
+            grid-row: 1 /span 6;
+            padding: 20px;   
+        }
+        .card-c{
+            grid-column: 4/ span 6;
+            grid-row: 7 /span 6;
+            border: 1px solid rgba(233, 68, 68, 0.2);
+            border-radius: 16px; 
+            background: rgba(233, 68, 68, 0.05);
+            padding: 20px;   
+        }
+
+        .choose-us-card img{
+            width: 64px;
+            height: 64px;
+        }
+        .choose-us-card h3{
+            color: rgb(19, 19, 24);
+            font-family: Mulish;            
+            font-size: 24px;            
+            font-weight: 800;
+        }
+        .choose-us-card p{
+            color: rgb(90, 90, 93);
+            font-family: Mulish;            
+            font-size: 16px;            
+            font-weight: 400;
+            text-align: left;
+        }
+
