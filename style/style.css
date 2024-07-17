@@ -521,6 +521,56 @@ p{
         width:510px ;
         height:384px ;
     }
+    .Perfect-Place-video iframe{
+        width:510px ;
+        height:384px ;
+    }
+
+
+/* popular tour section style */
+
+/* Info section style */
+
+.info-container{
+    border: 2px solid red;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto 100px;
+}
+
+.info-text{
+    width: 474px;
+    height: 422px;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 84, 0);
+    border-radius: 16px;
+    text-align: left;
+    padding: 20px;
+}
+.info h2,p{
+margin-bottom: 24px;
+text-align: left;
+}
+
+.info-input{    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 24px;
+}
+
+input{
+    width: 293px;
+    height: 32px;   
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05); 
+}
+.info img{
+    width:510px ;
+    height:384px ;
+}
 
 
 /* popular tour section style */
