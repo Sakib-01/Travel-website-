@@ -489,3 +489,38 @@ p{
 
 
 /* Deals-Discounts-container style end */
+
+/* popular tour section style */
+
+    .Perfect-Place-tour{
+        border: 2px solid red;
+        height: 600px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0px auto 100px;
+    }
+
+    .Perfect-Place-text{
+        width: 50%;
+        border: 2px solid blue;
+        text-align: left;
+    }
+    .Perfect-Place-text h2,p{
+    margin-bottom: 24px;
+    }
+    .popular-tour-text ul>li{
+    margin-bottom: 24px;
+    color: rgb(90, 90, 93);
+    font-family: Mulish;    
+    font-size: 16px;    
+    font-weight: 400; 
+    }
+
+    .Perfect-Place-video{
+        width:510px ;
+        height:384px ;
+    }
+
+
+/* popular tour section style */
