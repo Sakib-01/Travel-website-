@@ -340,3 +340,152 @@ p{
             text-align: left;
         }
 
+/* Deals-Discounts-container style start */
+
+.Deals-Discounts-container{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+}
+.Deals-Discounts-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Deals-Discounts-p{
+    width: 643px;
+    text-align: center;
+}
+
+.Deals-Discounts-card{
+    border: 2px solid blue;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+/* inside Card style */
+.card-logo{
+    display: flex;
+    justify-content: space-around;
+    height: 24px;
+    padding-top: 60px;
+    padding-left: 60px;
+}
+.card-logo img{
+    background-color: orangered;
+    margin-left: 2px;
+}
+
+.card-text{
+     padding-left: 60px;
+     text-align: left;
+}
+.card-text h3 {
+    color: rgb(19, 19, 24);
+    font-family: Mulish;    
+    font-size: 24px;    
+    font-weight: 800;
+    text-align: left;
+    padding-top: 16px;
+}
+.card-text p {
+    color: rgb(90, 90, 93);
+    font-family: Mulish;    
+    font-size: 16px;    
+    font-weight: 400;
+    text-align: left;
+    padding-right: 16px;
+}
+
+.card-text h4 {
+    font-family: Mulish;
+    font-size: 20px;    
+    font-weight: 800;    
+    line-height: 25px;
+}
+
+/* inside Card style */
+
+/* card container style */
+
+
+.Deals-Discounts-card>.card-a{
+    border: 2px solid red;
+    width: 1130px;
+    height: 500px;
+    background-image: url("../Images/Group39.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.Deals-Discounts-card>.card-a>.card-content{
+    position: absolute;
+    width: 579px;
+    height: 400px;
+    top: 15%;
+    right:5%;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.8);
+}
+
+
+.Deals-Discounts-card>.card-b{
+    border: 2px solid red;
+    width: 1130px;
+    height: 500px;
+    background-image: url("../Images/Group40.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.Deals-Discounts-card>.card-b>.card-content{
+    position: absolute;
+    width: 579px;
+    height: 400px;
+    top: 15%;
+    right:45%;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.Deals-Discounts-card>.card-c{
+    border: 2px solid red;
+    width: 1130px;
+    height: 500px;
+    background-image: url("../Images/Group39.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.Deals-Discounts-card>.card-c>.card-content{
+    position: absolute;
+    width: 579px;
+    height: 400px;
+    top: 15%;
+    right:5%;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.8);
+}
+
+
+/* Deals-Discounts-container style end */
