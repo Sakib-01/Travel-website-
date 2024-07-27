@@ -3,7 +3,7 @@
 
 /*   font-family: "Mulish", sans-serif  */
 
-body{
+header,main{
     border: 2px solid red;
     max-width: 1170px;
     margin: 0px auto;
@@ -58,10 +58,12 @@ p{
     .nav-text img{
         width: 48px;
         height: 48px;
+        margin-bottom: auto;
     }
 
     .nav-option{
         display: flex;
+        margin-bottom: 1.5rem;
     }
     .nav-option a{
         margin-left: 20px;
@@ -498,7 +500,7 @@ p{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin: 0px auto 100px;
+        margin: 0px auto ;
     }
 
     .Perfect-Place-text{
@@ -537,7 +539,11 @@ p{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px auto 100px;
+    margin: 0px auto;
+}
+
+.info-container hr {
+    width: 95%;
 }
 
 .info-text{
@@ -602,5 +608,60 @@ input{
     margin: 0px; 
 }
 
-
 /* popular tour section style */
+
+
+/* footer section style */
+
+.footer-container{
+    max-width:1440px;
+    background: rgba(19, 19, 24, 0.05);
+    margin: 0px auto;
+}
+
+.footer-content{
+    max-width:1440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    gap: 1rem;
+
+}
+.footer-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 4rem;
+}
+.footer-name h3{
+    margin: 20px auto;
+}
+.footer-name img{
+    width: 2.5rem;
+    height: auto;
+}
+
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.footer-icon img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+hr{
+    width: 80%;
+    margin: 50px auto;
+    border: 1px solid rgba(19, 19, 24, 0.1);
+}
+
+.copyright{
+    margin-bottom: 100px;
+}
