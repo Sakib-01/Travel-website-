@@ -567,9 +567,39 @@ input{
     border-radius: 8px;
     background: rgba(19, 19, 24, 0.05); 
 }
+.info-image{
+    position: relative;
+}
 .info img{
     width:510px ;
     height:384px ;
+}
+
+.img-card{
+    width: 15rem;
+    height: 5rem;
+    position: absolute;
+    bottom: 10%;
+    right: 0.3rem;
+    transform: rotate(-20deg);
+    border-radius: 16px;
+    background: rgb(255, 84, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img-card p{
+    color: rgb(255, 255, 255);
+    font-family: Mulish;    
+    font-size: 1rem; 
+    margin: 0px; 
+}
+.img-card h6{
+    color: rgb(255, 255, 255);
+    font-family: Mulish;    
+    font-size: 1.5rem;  
+    margin: 0px; 
 }
 
 

@@ -233,6 +233,9 @@ width: 100%;
 }
 .info-text{
     border: none;
+    width: 100%;
+    height: auto;
+    padding: 1.2rem 0;
 }
 .info-text p ,input, .btn-primary{
     margin-left: 20px;
@@ -242,5 +245,11 @@ width: 100%;
     width: 100%;
     margin: 0px auto;
 }
+.img-card{
+    bottom: 15%;
+    right: 0.3rem;
+
+}
+
 
 }
